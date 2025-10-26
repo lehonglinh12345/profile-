@@ -27,7 +27,7 @@ export const Projects = () => {
   description:
     "Website giới thiệu bản thân được xây dựng bằng Vite + React + TypeScript. Bao gồm thông tin cá nhân, kỹ năng, dự án, liên hệ và phần trình bày học vấn – kinh nghiệm. Giao diện hiện đại, responsive, sử dụng TailwindCSS và hiệu ứng mượt mà.",
   tags: ["Vite", "React", "TypeScript", "TailwindCSS"],
-  live: "https://lhl123.vercel.app/",
+  live: "https://lhlinh123.vercel.app/",
   code: "https://github.com/lehonglinh12345/profile-",
   image: "🌐",
 },
