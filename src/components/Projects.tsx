@@ -7,8 +7,8 @@ export const Projects = () => {
     {
       title: "🎬 Web Xem Phim Django",
       description:
-        "Website xem phim có đăng nhập, đánh giá, gợi ý theo nội dung và hành vi, lưu lịch sử xem, yêu thích, và chat cộng đồng thời gian thực.",
-      tags: ["Django", "MySql","WebSocket", "HTML/CSS/JS"],
+        "Website xem phim có đăng nhập, đánh giá, gợi ý theo nội dung và hành vi, lưu lịch sử xem, yêu thích.",
+      tags: ["Django", "MySql","Boostrap5", "HTML/CSS/JS"],
       live: "https://example-movieapp.vercel.app", // link demo thật nếu có
       code: "https://github.com/yourusername/django-movie-web",
       image: "🎞️",
@@ -16,21 +16,23 @@ export const Projects = () => {
     {
       title: "💬 Web Đồ Án & Chat Realtime",
       description:
-        "Ứng dụng chat cộng đồng đơn giản, sử dụng Next.js và WebSocket với emoji, avatar, hiển thị trạng thái đang nhập và chống spam.",
-      tags: [ "WebSocket", "TailwindCSS", "Node.js"],
+        "Ứng dụng chat cộng đồng đơn giản, sử dụng django và WebSocket với emoji, avatar, hiển thị trạng thái đang nhập và chống spam.",
+      tags: [ "WebSocket", "TailwindCSS", "Django"],
       live: "https://example-chatapp.vercel.app",
       code: "https://github.com/lehonglinh12345/DA",
       image: "💭",
     },
-    {
-      title: "📱 App Học Tiếng Nhật",
-      description:
-        "Ứng dụng học từ vựng tiếng Nhật N5–N4 bằng React Native. Có tính năng yêu thích từ, học ngẫu nhiên, lưu bằng AsyncStorage, build file .apk.",
-      tags: ["React Native", "Expo", "SQLite"],
-      live: "",
-      code: "https://github.com/yourusername/japanese-learning-app",
-      image: "🇯🇵",
-    },
+{
+  title: "💼 Web Profile Cá Nhân",
+  description:
+    "Website giới thiệu bản thân được xây dựng bằng Vite + React + TypeScript. Bao gồm thông tin cá nhân, kỹ năng, dự án, liên hệ và phần trình bày học vấn – kinh nghiệm. Giao diện hiện đại, responsive, sử dụng TailwindCSS và hiệu ứng mượt mà.",
+  tags: ["Vite", "React", "TypeScript", "TailwindCSS"],
+  live: "https://profile-eosin-nine.vercel.app/",
+  code: "https://github.com/lehonglinh12345/profile-",
+  image: "🌐",
+},
+
+
     {
       title: "🧮 Phần Mềm Giải Phương Trình",
       description:

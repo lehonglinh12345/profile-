@@ -17,13 +17,13 @@ export const Japanese = () => {
       description: "Intermediate grammar, daily conversations, and 1500 kanji",
       color: "from-blue-500/20 to-cyan-500/20"
     },
-    {
-      level: "JLPT N3",
-      status: "Planning",
-      icon: GraduationCap,
-      description: "Advanced grammar, business Japanese, and 3000 kanji",
-      color: "from-purple-500/20 to-pink-500/20"
-    }
+  {
+    level: "JLPT N3",
+    status: "Planning",
+    icon: GraduationCap,
+    description: "Advanced grammar, business Japanese, and 3000 kanji",
+    color: "from-purple-500/20 to-pink-500/20"
+  }
   ];
 
   const skills = [

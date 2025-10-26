@@ -1,9 +1,14 @@
 import { Button } from "@/components/ui/button";
-import { Github,  Mail, Download } from "lucide-react";
+import { Github,  Mail, Download, Facebook } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
 import "../i18n";
 import { useTranslation } from "react-i18next";
 import { Typewriter } from 'react-simple-typewriter';
+
+
+
+
+
 export const Hero = () => {
   const { t } = useTranslation();
 
@@ -94,24 +99,35 @@ export const Hero = () => {
 
           {/* Social Links */}
           <div className="flex gap-4 justify-center pt-8">
-            <a 
-              href="https://github.com/lehonglinh12345" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="p-3 rounded-full bg-card border border-border hover:border-primary hover:bg-primary/10 transition-all shadow-card"
-              title="GitHub"
-            >
-              <Github className="h-5 w-5" />
-            </a>
-         
-            <button
-              onClick={openGmail}
-              className="p-3 rounded-full bg-card border border-border hover:border-primary hover:bg-primary/10 transition-all shadow-card"
-              title="Email"
-            >
-              <Mail className="h-5 w-5" />
-            </button>
-          </div>
+  <a 
+    href="https://github.com/lehonglinh12345" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="p-3 rounded-full bg-card border border-border hover:border-primary hover:bg-primary/10 transition-all shadow-card"
+    title="GitHub"
+  >
+    <Github className="h-5 w-5" />
+  </a>
+
+  <a 
+    href="https://www.facebook.com/re.hon.rin.2025?mibextid=wwXIfr&rdid=6yl1jmw2ruRP07u1&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1GSWHpf8Zj%2F%3Fmibextid%3DwwXIfr" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="p-3 rounded-full bg-card border border-border hover:border-primary hover:bg-primary/10 transition-all shadow-card"
+    title="Facebook"
+  >
+    <Facebook className="h-5 w-5" />
+  </a>
+
+  <button
+    onClick={openGmail}
+    className="p-3 rounded-full bg-card border border-border hover:border-primary hover:bg-primary/10 transition-all shadow-card"
+    title="Email"
+  >
+    <Mail className="h-5 w-5" />
+  </button>
+</div>
+
         </div>
       </div>
 

@@ -5,20 +5,20 @@ export const Experience = () => {
   const experiences = [
     {
       type: "work",
-      title: "Full Stack Developer (Django + React)",
+      title: "Full Stack Developer (Python & Django)",
       company: "Dự án Web Xem Phim",
       period: "2024 - 2025",
       description:
         "Phát triển website xem phim với các tính năng: đánh giá, gợi ý theo nội dung (Content-Based Filtering), lưu lịch sử xem, yêu thích, và chat cộng đồng. Sử dụng Django, WebSocket và SwiperJS."
     },
-    {
-      type: "work",
-      title: "Frontend Developer (React Native)",
-      company: "Dự án App Học Tiếng Nhật",
-      period: "2025",
-      description:
-        "Xây dựng ứng dụng học từ vựng tiếng Nhật với các chức năng: học từ ngẫu nhiên, lưu tiến độ bằng AsyncStorage, yêu thích từ vựng, và build file .apk để chạy trên điện thoại."
-    },
+    // {
+    //   type: "work",
+    //   title: "Frontend Developer (React Native)",
+    //   company: "Dự án App Học Tiếng Nhật",
+    //   period: "2025",
+    //   description:
+    //     "Xây dựng ứng dụng học từ vựng tiếng Nhật với các chức năng: học từ ngẫu nhiên, lưu tiến độ bằng AsyncStorage, yêu thích từ vựng, và build file .apk để chạy trên điện thoại."
+    // },
     {
       type: "work",
       title: "Tester / QA Engineer",
@@ -29,11 +29,11 @@ export const Experience = () => {
     },
     {
       type: "education",
-      title: "Sinh viên ngành Công Nghệ Thông Tin",
-      company: "Trường Đại học (Đồ án 4 - App Học Tiếng Nhật)",
-      period: "2023 - Nay",
+      title: "Sinh viên ngành Kỹ Thuật Phần Mềm",
+      company: "Trường Đại học ( CTUET ) ",
+      period: "2025 - Nay",
       description:
-        "Học và phát triển kỹ năng lập trình web, mobile và kiểm thử phần mềm. Tập trung vào Django, React Native, Python, và kiểm thử phần mềm theo quy trình ISO/IEC/IEEE 29119."
+        "Học và phát triển kỹ năng lập trình web và kiểm thử phần mềm. Tập trung vào Django, Reactjs , Nodejs , Python, và kiểm thử phần mềm theo quy trình ISO/IEC/IEEE 29119."
     }
   ];
 
