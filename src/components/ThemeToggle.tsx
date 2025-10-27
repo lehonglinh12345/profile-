@@ -22,12 +22,13 @@ export const ThemeToggle = () => {
   };
 
   return (
-    <Button
-      onClick={toggleTheme}
-      variant="outline"
-      size="icon"
-      className="fixed top-6 right-6 z-50 h-12 w-12 rounded-full bg-card/80 backdrop-blur-sm border-2 border-primary/20 hover:border-primary/40 hover:bg-card shadow-elegant transition-all hover:scale-110"
-    >
+ <Button
+  onClick={toggleTheme}
+  variant="outline"
+  size="icon"
+  className="fixed top-20 right-4 z-50 h-12 w-12 rounded-full bg-card/80 backdrop-blur-sm border-2 border-primary/20 hover:border-primary/40 hover:bg-card shadow-elegant transition-all hover:scale-110"
+>
+
       {theme === "light" ? (
         <Moon className="h-5 w-5 text-primary rotate-0 scale-100 transition-all" />
       ) : (

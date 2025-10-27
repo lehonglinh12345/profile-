@@ -21,18 +21,19 @@ const Index = () => {
     <Navbar />
 
     {/* Góc trên bên phải */}
-    <div className="absolute top-20 right-4 flex items-center gap-2 z-50">
-      <ThemeToggle />
-      <select
-        onChange={(e) => i18n.changeLanguage(e.target.value)}
-        defaultValue={i18n.language}
-        className="bg-secondary text-foreground border border-border px-2 py-1 rounded-md text-sm focus:outline-none"
-      >
-        <option value="vi">🇻🇳 VN</option>
-        <option value="en">🇬🇧 EN</option>
-        <option value="ja">🇯🇵 JP</option>
-      </select>
-    </div>
+ <div className="absolute top-36 right-4 flex items-center gap-2 z-50">
+  <ThemeToggle />
+  <select
+    onChange={(e) => i18n.changeLanguage(e.target.value)}
+    defaultValue={i18n.language}
+    className="bg-secondary text-foreground border border-border px-2 py-1 rounded-md text-sm focus:outline-none"
+  >
+    <option value="vi">🇻🇳 VN</option>
+    <option value="en">🇬🇧 EN</option>
+    <option value="ja">🇯🇵 JP</option>
+  </select>
+</div>
+
 
     {/* Các phần chính */}
     <Hero />
