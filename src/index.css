@@ -319,3 +319,28 @@
     @apply shadow-glow transform scale-105;
   }
 }
+
+@layer utilities {
+  .active-nav {
+    @apply text-primary font-semibold;
+  }
+
+  /* Hiệu ứng gạch chân trượt lên khi active */
+  .active-nav::after {
+    content: "";
+    @apply absolute left-0 bottom-0 w-full h-[2px] bg-primary;
+    transform: scaleX(1);
+    transition: transform 0.3s ease;
+  }
+
+  a:not(.active-nav)::after {
+    content: "";
+    @apply absolute left-0 bottom-0 w-full h-[2px] bg-primary;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+
+  a:hover::after {
+    transform: scaleX(1);
+  }
+}

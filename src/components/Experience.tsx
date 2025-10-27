@@ -38,7 +38,7 @@ export const Experience = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-b from-secondary/30 to-background">
+    <section id="experience" className="py-20 bg-gradient-to-b from-secondary/30 to-background">
       <div className="container px-4">
         <div className="max-w-4xl mx-auto space-y-12">
           {/* Section Title */}

@@ -31,7 +31,7 @@ export const Skills = () => {
   ];
 
   return (
-    <section className="py-20 bg-background">
+    <section id="skill" className="py-20 bg-background">
       <div className="container px-4">
         <div className="max-w-5xl mx-auto space-y-12">
           {/* Section Title */}

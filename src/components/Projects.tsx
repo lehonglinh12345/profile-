@@ -45,7 +45,7 @@ export const Projects = () => {
   ];
 
   return (
-    <section className="py-20 bg-background">
+    <section id="projects" className="py-20 bg-background">
       <div className="container px-4">
         <div className="max-w-6xl mx-auto space-y-12">
           {/* Section Title */}

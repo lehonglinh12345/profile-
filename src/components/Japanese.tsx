@@ -36,7 +36,7 @@ export const Japanese = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-b from-background via-primary/5 to-background">
+    <section id="japanese" className="py-20 bg-gradient-to-b from-background via-primary/5 to-background">
       <div className="container px-4">
         <div className="max-w-5xl mx-auto space-y-12">
           {/* Section Title */}

@@ -17,12 +17,13 @@ export const Hero = () => {
       "https://mail.google.com/mail/?view=cm&to=lehonglinhcd2004@gmail.com",
       "_blank"
     );
+    
   };
   
 
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Animated background */}
       <div className="absolute inset-0 z-0">
         <img 
@@ -55,12 +56,12 @@ export const Hero = () => {
           {/* Title */}
           <div className="space-y-4">
 <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-primary via-primary-glow to-primary bg-clip-text text-transparent">
-  <div className="min-h-[4rem] md:min-h-[10rem] "> 
+  <div className="min-h-[8rem] md:min-h-[14rem] "> 
     <Typewriter
       words={[
         "Lê Linh — レホンリン",
         "React & Django Developer",
-        "Chào mừng bạn đến với trang cá nhân của tôi!",
+        "Chào bạn đến trang của tôi!",
       ]}
       loop={0}
       cursor

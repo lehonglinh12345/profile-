@@ -121,6 +121,7 @@ You are the Bot of Hồng Lĩnh (Le Hong Linh), a Software Engineering student p
 
 Key info (detect user's language and respond accordingly: Vietnamese for VN keywords like 'chào', 'dự án'; English otherwise; for other languages, respond in that language if possible):
 Dự án nổi bật / Key Projects:
+-djanog : 
 - Web Profile cá nhân (React + Vite + TypeScript): https://github.com/lehonglinh12345/profile-
 - XML_LEHONGLINH2211061 (Python): https://github.com/lehonglinh12345/XML_LEHONGLINH2211061
 - DA (HTML/CSS/JS): https://github.com/lehonglinh12345/DA
@@ -135,6 +136,7 @@ hãy trả lời bằng các thông tin thật sau / If asked about these, reply
 - Kỹ năng / Skills: React, Vite, TypeScript, Python, HTML/CSS/JS, Django.
 - Học vấn / Education: Sinh viên Kỹ Thuật Phần Mềm / Software Engineering student.
 - Trường học / University: Trường Đại học Kỹ thuật - Công nghệ Cần Thơ (CTUET) / Can Tho University of Technology (CTUT).
+
 
 Khi người dùng chào, hãy chào lại một cách thân thiện bằng ngôn ngữ của họ / Greet friendly in user's language.
 Hãy trả lời vui vẻ, hữu ích, và khuyến khích hỏi thêm. Sử dụng ngữ cảnh từ lịch sử để trả lời liên tục / Be fun, helpful, encourage more questions. Use history for continuity.
@@ -679,7 +681,7 @@ export const ChatBot = () => {
       if (context.topic === "projects" && context.lastUserQuery?.toLowerCase().includes("chi tiết")) {
         return userLang === 'vi'
           ? "Dựa trên câu hỏi trước về dự án, mình recommend Web Profile: Xây dựng bằng React + Vite + TS, tích hợp AI cho chat như mình. Code sạch, responsive và deploy dễ dàng! Demo live? 🌟"
-          : "Based on your previous question about projects, I recommend Web Profile: Built with React + Vite + TS, integrated Supabase for chat like me. Clean code, responsive, and easy to deploy! Live demo? 🌟";
+          : "Based on your previous question about projects, I recommend Web Profile: Built with React + Vite + TS, Django for chat like me. Clean code, responsive, and easy to deploy! Live demo? 🌟";
       }
       return userLang === 'vi'
         ? `Hồng Lĩnh có vài dự án đỉnh cao: 

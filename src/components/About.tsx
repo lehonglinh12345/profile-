@@ -4,6 +4,7 @@ import "../i18n";
 import { useTranslation } from "react-i18next";
 
 export const About = () => {
+  
   const { t } = useTranslation();
 
   const highlights = [
@@ -30,7 +31,7 @@ export const About = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-b from-background via-secondary/20 to-background relative overflow-hidden">
+    <section  id="about" className="py-20 bg-gradient-to-b from-background via-secondary/20 to-background relative overflow-hidden">
       {/* Decorative elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-primary/5 rounded-full blur-3xl" />
